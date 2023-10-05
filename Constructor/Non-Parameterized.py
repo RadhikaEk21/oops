@@ -8,6 +8,5 @@ class Employee:
 
 emp1 = Employee()
 print(emp1.id)
-
 emp1.display()
 

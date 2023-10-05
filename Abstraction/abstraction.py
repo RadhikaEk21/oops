@@ -9,9 +9,6 @@ class Calculator1(Calculator):
 class Calculator2(Calculator):
     def multi(self):
         print("multi")
-
-
-
 c=Calculator2()
 c.add1()
 d=Calculator1()

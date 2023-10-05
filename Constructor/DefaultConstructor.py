@@ -11,13 +11,28 @@
 #
 #
 
+#
+# class School:
+#     teacher="abcd"
+#     student="pqrs"
+#     def open(self):
+#         print(self.teacher,"hi")
+#
+# obj=School()
+# obj.open()
+# print(obj.teacher)
 
-class School:
-    teacher="abcd"
-    student="pqrs"
+
+class Computer:
+    keyboard='abcd'
+    data='file'
     def open(self):
-        print(self.teacher,"hi")
+        print("hi",self.data)
+    def close(self):
+        print("hi python")
 
-obj=School()
+obj=Computer()
 obj.open()
-print(obj.teacher)
+obj.close()
+print(obj.data)
+
